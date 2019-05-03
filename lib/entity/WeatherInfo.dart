@@ -1,18 +1,18 @@
 class WeatherInfo{
   int code;
   String msg;
-  Weather data;
+  _Weather data;
 
   WeatherInfo({this.code,this.msg,this.data});
 
   WeatherInfo.fromJson(Map<String , dynamic> json){
     this.code = json['code'];
     this.msg = json['msg'];
-    this.data = Weather.fromJson(json['data']);
+    this.data = _Weather.fromJson(json['data']);
   }
 }
 
-class Weather{
+class _Weather{
    String address;
    String cityCode;
    String temp;
@@ -22,9 +22,9 @@ class Weather{
    String humidity;
    String reportTime;
 
-   Weather({this.address,this.cityCode,this.temp,this.weather,this.windDirection,this.windPower,this.humidity,this.reportTime});
+   _Weather({this.address,this.cityCode,this.temp,this.weather,this.windDirection,this.windPower,this.humidity,this.reportTime});
 
-   Weather.fromJson(Map<String , dynamic> json){
+   _Weather.fromJson(Map<String , dynamic> json){
       this.address = json['address'];
       this.cityCode = json['address'];
       this.temp = json['temp'];

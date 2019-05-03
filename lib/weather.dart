@@ -35,6 +35,9 @@ class WeatherWidget extends StatelessWidget {
   Widget build(BuildContext context) {
     // TODO: implement build
     return Scaffold(
+      appBar: AppBar(
+        title: Text(" 主要城市天气"),
+      ),
       body: ListView.separated(
           separatorBuilder: (context, index) {
             return Container(height: 1.0,color: Colors.grey,);
