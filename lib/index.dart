@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:banana/weather/weather.dart';
 import 'package:banana/book/book.dart';
-import 'tools.dart';
-import 'calendar.dart';
+import 'package:banana/tools/tools.dart';
+import 'package:banana/calendar/calendar.dart';
 
 class IndexActivity extends StatelessWidget {
   @override
@@ -49,8 +49,8 @@ class _IndexWidgetState extends State<_IndexWidget> {
           children: <Widget>[
             WeatherWidget(),
             BookWidget(),
-            ToolsWidget(),
-            CalendarWidget()
+            CalendarWidget(),
+            ToolsWidget()
           ],
         ),
         bottomNavigationBar: BottomNavigationBar(
