@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'weather.dart';
-import 'book.dart';
+import 'package:banana/weather/weather.dart';
+import 'package:banana/book/book.dart';
 import 'tools.dart';
 import 'calendar.dart';
 

@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
 import 'dart:convert';
-import 'entity/WeatherInfo.dart';
-import 'weather_more.dart';
+import '../entity/WeatherInfo.dart';
+import 'package:banana/weather/weather_more.dart';
 
 class WeatherDetailWidget extends StatefulWidget {
   final String cityName;

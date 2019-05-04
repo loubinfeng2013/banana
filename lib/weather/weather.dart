@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'weather_detail.dart';
+import 'package:banana/weather/weather_detail.dart';
 
 class WeatherWidget extends StatelessWidget {
   final List<String> _cityNames = [
